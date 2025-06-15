@@ -2,9 +2,9 @@
 :root {
   /* ? ######## Colors */
   --color-default: #212529;
-  --primary-hue: 0;
-  --primary-saturation: 84%;
-  --primary-lightness: 44%;
+  --primary-hue: 35;
+  --primary-saturation: 44%;
+  --primary-lightness: 72%;
   --color-primary: hsl(
     var(--primary-hue),
     var(--primary-saturation),
@@ -400,7 +400,7 @@ header .btn-main {
 }
 
 header picture img {
-  width: 100%;
+  width: 85%;
 }
 header picture img:hover {
   animation: shake 1s infinite;

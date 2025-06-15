@@ -129,29 +129,35 @@
 }
 
 /*^========> Gallery <========*/
+@media screen and (max-width: 3000px) {
+  .gallery-photos {
+    height: 1629px;
+  }
+}
 @media screen and (max-width: 1400px) {
   .gallery-photos {
-    height: 1000px;
+    height: 1400px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .gallery-photos {
-    height: 845px;
+    height: 1177px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .gallery-photos {
-    height: 1405px;
+    height: 1955px;
   }
 
   .gallery-photos picture {
     width: calc(calc(100% - var(--gap)) / 2);
   }
 
+  /*
   .gallery .pizza {
-    order: 1;
+    order: 3
   }
   .gallery .fried {
     order: 6;
@@ -162,15 +168,18 @@
   .gallery .kofta {
     order: 7;
   }
+  .gallery .kofta2 {
+    order: 8;
+  }
   .gallery .burger {
     order: 2;
   }
   .gallery .pizza-slices {
-    order: 3;
+    order: 1;
   }
   .gallery .steak {
     order: 5;
-  }
+  }*/
 }
 
 @media screen and (max-width: 768px) {
