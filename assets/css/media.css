@@ -189,6 +189,10 @@
   .gallery-photos picture {
     width: 100%;
   }
+  .maps {
+    flex-direction: column;
+    align-items: center; /* Optional: center maps vertically in column */
+  }
 }
 /*^========> Contacts <========*/
 @media screen and (max-width: 992px) {

@@ -314,6 +314,7 @@ nav .menu-icon {
 header {
   display: flex;
   align-items: center;
+  
 }
 
 header .container {
@@ -397,6 +398,7 @@ header .btn-main {
 
 header picture img {
   width: 85%;
+  border: 4px solid #fff;
 }
 header picture img:hover {
   animation: shake 1s infinite;
@@ -545,7 +547,7 @@ header picture img:hover {
 
 /*?============> Contact <============*/
 .contact iframe {
-  width: 100px;
+  width: 400px;
   height: 21.875rem;
 }
 
@@ -795,4 +797,10 @@ footer .contact-details ul li i {
 }
 :root:has(.mode:checked) .logo-bronze {
   display: none;
+}
+.maps {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+   
 }
